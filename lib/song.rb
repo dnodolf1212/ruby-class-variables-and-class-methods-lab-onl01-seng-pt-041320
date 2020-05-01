@@ -31,7 +31,7 @@ class Song
     hash = {}
     @@genres.each.count {|k, v| hash[k] = v}
   end
-end
+
 
 
   
