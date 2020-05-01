@@ -23,7 +23,7 @@ class Song
   end
   
   def self.artists
-    self.each_with_object([]) do |e, arr|
+    @@artists.each_with_object([]) do |e, arr|
       arr << unless arr.include?(e)
   end
 end
