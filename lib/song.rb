@@ -29,8 +29,8 @@ class Song
   
   def self.genre_count
     hash = {}
-    @@genres.each do |k, v|
-      hash[self.count(k)] = v
+    @@genres.each do |v|
+      hash[self.count] = v
   end
 end
 
