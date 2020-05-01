@@ -35,7 +35,7 @@ class Song
       if hash.key?(genre) == true 
         hash[genre] += 1      
       else
-        hash[genre] = 1
+        hash[genre]
         binding.pry
    end
    hash
