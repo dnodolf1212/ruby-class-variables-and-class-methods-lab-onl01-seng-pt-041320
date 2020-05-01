@@ -24,6 +24,7 @@ class Song
     self.each_with_object([]) do |e, arr|
       arr << unless arr.include?(e)
   end
+end
   
   def self.genre_count
   end
