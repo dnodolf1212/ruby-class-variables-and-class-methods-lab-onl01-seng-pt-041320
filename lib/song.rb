@@ -12,15 +12,20 @@ class Song
     @genre = genre 
   end
   
-  def count
+  def self.count
     @@count
   end
   
-  def genres
+  def self.genres
     @@genres << genre  #contol for duplicates (if/ else, match? look at school domain)
   end
   
-  def artists
+  def self.artists
     @@artists << artist  #control for duplicates
   end
+  
+  def self.genre_count
+  end
+  
+  
 end
