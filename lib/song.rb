@@ -37,8 +37,8 @@ class Song
       else
         hash[genre]
       end
-      hash 
     end
+    hash 
  end 
  
 end
