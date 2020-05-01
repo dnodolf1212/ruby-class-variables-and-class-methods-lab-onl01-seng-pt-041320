@@ -21,13 +21,8 @@ class Song
   end
   
   def self.artists                     
-    @@artists
-    #def add_student(name, grade)
-    #@roster[grade] << name
-    #else 
-      #roster[grade] = []
-      #roster[grade] << name
-    #end
+    self.each_with_object([]) do |e, arr|
+      arr << unless arr.include?(e)
   end
   
   def self.genre_count
