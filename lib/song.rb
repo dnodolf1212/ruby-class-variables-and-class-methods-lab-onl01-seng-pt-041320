@@ -33,7 +33,7 @@ class Song
     hash = {}
     @@genres.each do |genre|
       binding.pry
-      
+   end   
       
       
   end
