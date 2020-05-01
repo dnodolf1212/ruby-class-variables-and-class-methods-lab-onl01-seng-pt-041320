@@ -33,7 +33,8 @@ class Song
     hash = {}
     @@genres.each do |genre|
       if hash.key?(genre) == true 
-        hash[genre] = genre + 1   
+        binding.pry
+        hash[genre]   
       else
         hash[genre] = 1
    end
