@@ -31,7 +31,6 @@ class Song
     hash = {}
     @@genres.each do |e| 
       @@genres.count(e).to_h 
-      
   end
 end 
   
