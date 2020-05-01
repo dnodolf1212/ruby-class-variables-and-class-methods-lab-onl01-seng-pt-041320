@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   @@count = 0
   @@genres = []
@@ -30,6 +32,9 @@ class Song
   def self.genre_count
     hash = {}
     @@genres.each do |genre|
+      binding.pry
+      
+      
       
   end
 
