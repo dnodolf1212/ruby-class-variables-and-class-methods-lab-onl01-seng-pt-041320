@@ -29,7 +29,7 @@ class Song
   
   def self.genre_count
     hash = {}
-    @@genres.map.
+    @@genres.count()
   end
   
   
