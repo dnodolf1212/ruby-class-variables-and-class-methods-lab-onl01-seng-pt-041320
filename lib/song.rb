@@ -20,8 +20,14 @@ class Song
     @@genres << genre  #contol for duplicates (if/ else, match? look at school domain)
   end
   
-  def self.artists
+  def self.artists                     
     @@artists
+    #def add_student(name, grade)
+    #@roster[grade] << name
+    #else 
+      #roster[grade] = []
+      #roster[grade] << name
+    #end
   end
   
   def self.genre_count
