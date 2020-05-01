@@ -25,6 +25,7 @@ class Song
       arr << unless arr.include?(e)
   end
 end
+end
   
   def self.genre_count
   end
