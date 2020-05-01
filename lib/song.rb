@@ -19,7 +19,7 @@ class Song
   end
   
   def self.genres
-    @@genres << genre  #contol for duplicates (if/ else, match? look at school domain)
+    @@genres.uniq
   end
   
   def self.artists
