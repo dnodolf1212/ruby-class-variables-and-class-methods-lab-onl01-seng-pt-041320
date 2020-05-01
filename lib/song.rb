@@ -22,8 +22,11 @@ class Song
     @@genres << genre  #contol for duplicates (if/ else, match? look at school domain)
   end
   
-  def self.artists                     
+  def self.artists
+    self.each_with_object([]) do |e, arr|
+      arr << unless arr.include?(e)
   end
+end
   
   def self.genre_count
   end
