@@ -23,11 +23,9 @@ class Song
   end
   
   def self.artists
-    @@artists.each_with_object([]) do |e, arr|
-      arr << unless arr.include?(e)
+    @@artists.uniq
   end
-end
-end
+
   
   def self.genre_count
   end
