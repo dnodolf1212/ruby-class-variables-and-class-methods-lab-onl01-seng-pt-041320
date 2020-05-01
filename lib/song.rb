@@ -38,7 +38,7 @@ class Song
         hash[genre]
         binding.pry
    end
-   hash
+
  end
  end 
  
