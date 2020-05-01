@@ -28,8 +28,8 @@ class Song
 
   
   def self.genre_count
-    @@genres.each_with_object({}) |arr|
-    hash[arr.count]
+    hash = {}
+    @@genres.count {|x| 
   end
 
   
