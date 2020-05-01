@@ -36,7 +36,6 @@ class Song
         hash[genre] + 1 
       else
         hash[genre] = 1
-      binding.pry
    end   
       
       
