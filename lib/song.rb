@@ -38,8 +38,8 @@ class Song
         hash[genre]
       end
       hash
-      binding.pry
    end
+   puts hash
 
  end 
  
