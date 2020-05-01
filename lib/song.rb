@@ -38,9 +38,8 @@ class Song
         hash[genre]
       end
    end
-   hash
  end 
- 
+ hash
       
       
 end
