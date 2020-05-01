@@ -22,5 +22,5 @@ class Song
   
   def artists
     @@artists << artist  #control for duplicates
-  
+  end
 end
