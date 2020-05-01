@@ -32,6 +32,7 @@ class Song
     @@genres.each do |k, v|
       hash[k] = v.count
   end
+end
 
 
   
